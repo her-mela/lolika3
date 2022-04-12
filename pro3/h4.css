@@ -1,0 +1,249 @@
+.navbar-nav {
+    margin-left: auto;
+    font-style: normal;
+
+}
+
+.d-inline-block {
+    width: 10%;
+}
+
+.container-fluid {
+    position: right;
+    margin-right: auto;
+    background-color: hsla(60, 1%, 14%, 0.4);
+}
+
+body {
+    
+    background-color: black;
+    width: fit-content;
+    scroll-behavior: smooth;
+    
+}
+
+
+
+code {
+    background: rgb(18, 16, 22);
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    margin: 0 0.3rem;
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+    border-top-left-radius: 0%;
+    position: fixed;
+} 
+
+
+ .container {
+    width: auto;
+    height: 1000px;
+    background-image: linear-gradient(rgba(158, 141, 141, 0.5) transparent), url(../pro3/img.jpg);
+    background-size: contain;
+    background-position: center;
+    padding: auto;
+    margin: auto;
+    position: relative;
+} 
+
+
+.photo {
+    max-width: 100%;
+    height: auto;
+    opacity: .4
+    
+}
+
+  .photo2  {
+
+    background-size: 10%;
+    position: absolute;
+    top: 100px;
+    left: 100px; 
+    opacity: .5
+  }  
+
+.text-box {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(251, 252, 247);
+    position: absolute;
+    bottom: 10%;
+}
+
+.text-box p {
+    color: rgb(255, 246, 246);
+    font-size: 50px;
+    font-weight: 500px;
+    margin-left: 50px;
+    line-height: 20px;
+
+}
+
+.text-box h1 {
+    font-size: 50px;
+    position: relative;
+    line-height: 80px;
+    margin-left: 100px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(39, 36, 32);
+    background: url(/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
+
+}
+
+.text-box h3 {
+    font-size: large;
+    font-weight: 200px;
+    margin-left: 200px;
+}
+
+body .middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.middle {
+    background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 10vw;
+    font-family: "Source Sans Pro", sans-serif;
+    animation: reveal 3000ms linear infinite,
+        glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+    80% {
+        letter-spacing: 8px;
+
+    }
+
+    100% {
+        background-size: 300% 300%;
+
+
+
+    }
+}
+
+@keyframes glow {
+    40% {
+        text-shadow: 0 0 8px #fff;
+    }
+}
+
+
+.footer {
+    width: 100%;
+    height: 50%;
+    position: linear;
+    bottom: -200%;
+    background: rgb(105, 89, 14);
+    background: linear-gradient(45deg, rgb(102, 102, 96) 0%, rgb(134, 107, 70) 35%, rgb(115, 116, 111) 100%);
+    color: rgb(19, 17, 17);
+    padding: 100px 0 30px;
+    border-top-left-radius: 13px;
+    font-size: 20px;
+    line-height: 85%;
+
+}
+
+
+
+.logo {
+    width: 200px;
+    margin-bottom: 0px;
+
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.location {
+    margin-top: 100px;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+  p,
+a  { 
+
+    text-align:center;
+    font-size: 1.2rem;
+    color: rgb(236, 242, 245);
+}
+.p{
+    color: rgb(32, 31, 31);   
+}
+
+
+.ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    list-style-type: none;
+    font-size: 2rem;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook:hover,
+.fa-facebook:focus {
+    color: #1877f2;
+    transform: scale(1.1);
+}
+
+ .fa-instagram:hover,
+.fa-instagram:focus {
+    color: #bd22a2;
+    transform: scale(1.1);
+}
+
+.fa-github:hover,
+.fa-github:focus {
+    color: rgb(85, 79, 79);
+    transform: scale(1.1);
+}
+
+.fa-pinterest:hover,
+.fa-pinterest:focus {
+    color: #b3001b;
+}  
